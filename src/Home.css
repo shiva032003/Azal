@@ -1,0 +1,126 @@
+.home-page {
+    background: linear-gradient(135deg, #f5efe6, #e6d3b1);
+  }
+  
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+/* GENERAL */
+section {
+    padding: 80px 40px;
+  }
+  
+  /* HERO SECTION */
+  .home {
+    background: linear-gradient(135deg, #f5efe6, #e6d3b1);
+    text-align: center;
+  
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    padding: 0 40px;   /* 🔥 top-bottom padding remove */
+  }
+  
+  .home h1 {
+    font-size: 46px;
+    color: #7a1f1f;
+    margin-top: 0;
+    margin-bottom: 8px;
+  }
+  
+  
+  
+  .home p {
+    font-size: 18px;
+    color: #4a3b2a;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+
+  .about {
+    max-width: 900px;
+    margin: auto;
+    text-align: left;
+  }
+  
+  .about ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .about li {
+    font-size: 18px;
+    font-weight: 600;
+    color: #3b2f2f;   /* dark brown */
+    margin: 14px 0;
+    padding-left: 32px;
+    position: relative;
+  }
+  
+  .about li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    top: 2px;
+    color: #b11226;   /* brand red */
+    font-weight: bold;
+  }
+  
+  
+  
+  
+  .stats {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    background-color: #0a1f44;
+    text-align: center;
+  }
+  
+  .stat-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stat-number {
+    font-size: 42px;
+    font-weight: 700;
+    color: #e31919;   /* light premium */
+  }
+
+  .stat-text {
+    font-size: 16px;
+    margin-top: 6px;
+    color: #d3e9d5;
+  }
+  
+  
+
+  .expertise {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #7a1f1f;   /* premium maroon */
+  }
+  
+  
+  .expertise p {
+    font-size: 17px;
+    color: #2a1e1e;   /* clearly darker */
+    line-height: 1.6;
+  }
+  
+  
+  
