@@ -1,5 +1,5 @@
-.home-page {
-    background: linear-gradient(135deg, #f5efe6, #e6d3b1);
+  .home-page {
+    background-color: #faf7f2;
   }
   
 
@@ -14,7 +14,6 @@ section {
   
   /* HERO SECTION */
   .home {
-    background: linear-gradient(135deg, #f5efe6, #e6d3b1);
     text-align: center;
   
     min-height: 100vh;
