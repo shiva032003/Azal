@@ -9,7 +9,7 @@ function Home() {
           <p>Crafting Premium Handmade Carpets for the World</p>
         </section>
   
-        <section className="about">
+        <div className="about">
           <h2>Our Commitment to Quality</h2>
           <ul>
             <li>Handcrafted carpets by skilled artisans</li>
@@ -17,7 +17,7 @@ function Home() {
             <li>Custom designs as per client requirements</li>
             <li>Trusted by buyers across the globe</li>
           </ul>
-        </section>
+        </div>
   
         <section className="stats">
   <div className="stat-box">

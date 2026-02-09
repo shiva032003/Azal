@@ -43,8 +43,12 @@ section {
   
 
   .about {
-    max-width: 900px;
-    margin: auto;
+    background: #ffffff;
+    padding: 30px;
+    margin: 60px auto;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.12);
     text-align: left;
   }
   
@@ -79,6 +83,7 @@ section {
     display: flex;
     justify-content: center;
     gap: 60px;
+    padding: 60px 40px;
     background-color: #0a1f44;
     text-align: center;
   }
@@ -111,7 +116,7 @@ section {
   
   .about h2 {
     font-size: 32px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     color: #7a1f1f;   /* premium maroon */
   }
   
